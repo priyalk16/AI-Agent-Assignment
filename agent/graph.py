@@ -29,9 +29,7 @@ class AgentState(TypedDict):
     platform: Optional[str]
 
 
-# =========================
-# ROUTER NODE (RETURNS STATE, NOT STRING)
-# =========================
+
 def router_node(state: AgentState):
     # If already collecting lead → always go to lead node
     if state["collecting_lead"]:
