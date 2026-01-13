@@ -4,7 +4,7 @@ from agent.graph import build_graph
 graph = build_graph()
 
 # -------------------------
-# INITIAL STATE (MUST MATCH graph.py)
+# INITIAL STATE
 # -------------------------
 state = {
     "route": None,
